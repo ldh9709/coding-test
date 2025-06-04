@@ -4,6 +4,8 @@
  * 예를 들어 a = 3, b = 5인 경우, 3 + 4 + 5 = 12이므로 12를 리턴합니다.
  * a = 3, b = 5  => 12 | a = 3, b = 3 => 3 | a = 5, b = 3 => 12
  */
+package lv1;
+
 public class SumBetweenTwoIntegers {
 	
 	public long solution(int a, int b) {

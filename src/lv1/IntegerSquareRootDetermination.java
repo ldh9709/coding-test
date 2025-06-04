@@ -9,6 +9,8 @@
  * n은 1이상, 50000000000000 이하인 양의 정수
  */
 /*----- 문제 해결 못함 -----*/
+package lv1;
+
 public class IntegerSquareRootDetermination {
 
 	public long solution(long n) {

@@ -8,6 +8,8 @@
  * "pPoooyY"	true
  * "Pyy"		false
  */
+package lv1;
+
 public class NumberOfPAndYInTheString {
     boolean solution(String s) {
         boolean answer = true;
