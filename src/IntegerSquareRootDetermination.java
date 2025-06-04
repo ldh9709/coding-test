@@ -15,18 +15,15 @@ public class IntegerSquareRootDetermination {
         
 		long answer = 0;
 		
+		long root = (long) Math.sqrt(n);
 		
-		if(n > 1 && n < 4 ) {
-			answer = -1;
-			
+		if(root * root == n) {
+			answer = (root+1) * (root+1);
 		} else {
-			double root = Math.sqrt(n);
-			System.out.println("root : " + root);
-			long rp = (long) Math.floor(root) + 1;
-			System.out.println("rp : " + rp);
-			answer = rp * rp;
+			answer = -1;
 		}
-				
+		
+		
 		return answer;
     }
 }
